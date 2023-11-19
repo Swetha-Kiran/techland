@@ -1,0 +1,22 @@
+
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc((-23vw * 9) - 150px));
+    }
+  }
+  
+  .outerDiv {
+    animation-name: slider;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  .outerDiv:hover
+  {
+    animation-play-state: paused;
+  }

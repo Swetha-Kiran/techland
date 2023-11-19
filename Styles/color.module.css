@@ -1,0 +1,14 @@
+.button {
+    background-color: color-mix(in srgb, #FFF743 33%, #428358);
+}
+
+.buttonDark{
+    background-color: color-mix(in srgb, #FFF743 70%, #428358);   
+}
+
+.text{
+    color: color-mix(in srgb, #FFF743 33%, #428358);   
+}
+.customborder{
+    border-color: color-mix(in srgb, #FFF743 33%, #428358);
+}

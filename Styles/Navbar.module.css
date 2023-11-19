@@ -1,0 +1,82 @@
+/* .item_DropDown
+{
+    display: none;
+}
+.item_DropMenu:hover .item_DropDown
+{
+   display: block;
+} */
+/* .item_dropdown_inner_div
+{
+    height: 10vh;
+    transition-property: height;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.item_DropMenu:hover .item_dropdown_inner_div
+{
+    height:auto;
+} */
+/* .item_dropdown_2_inner_div
+{
+    height: 10vh;
+    transition-property: height;
+    transition-duration: 50ms;
+    transition-timing-function: ease;
+}
+.item_DropMenu:hover .item_dropdown_2_inner_div
+{
+    height: 80vh;
+} */
+.item_DropMenu:hover .item_DropDownIcon
+{
+    transform: rotate(-180deg);
+    transition-duration: 500ms;
+}
+/* When I taken off the cursor from item_DropMenu the icon will come to its original position smoothly */
+/* .item_DropDownIcon
+{
+    transition-duration: 500ms;
+} */
+.dropdownItemDiv:hover .dropdownItemLogoDiv
+{
+    background-color: rgb(134, 239, 172);
+    transition-duration: 1000ms;
+}
+
+.dropdownItemDiv:hover .dropdownItemName
+{
+    color: gray;
+}
+#comingSoonImage
+{
+    animation-name: comingSoonImageAnimate;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes comingSoonImageAnimate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(30deg);
+    }
+    50%
+    {
+        transform: rotate(0deg);
+    }
+    75%
+    {
+        transform: rotate(-30deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
